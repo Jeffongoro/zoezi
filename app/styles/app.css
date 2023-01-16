@@ -679,10 +679,6 @@ select {
   --tw-backdrop-sepia:  ;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
 .m-8 {
   margin: 2rem;
 }
@@ -777,11 +773,6 @@ select {
 
 .border-transparent {
   border-color: transparent;
-}
-
-.bg-sky-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(14 165 233 / var(--tw-bg-opacity));
 }
 
 .bg-black {
