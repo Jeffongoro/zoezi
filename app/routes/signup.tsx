@@ -21,7 +21,7 @@ export default function Index() {
         </p>
       </div>
 
-      <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+      <div className="mt-6 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="bg-white py-8 px-6 shadow rounded-lg sm:px-10">
           <form className="mb-0 space-y-6" action="#" method="POST">
             <div>
@@ -116,13 +116,13 @@ export default function Index() {
               <div className="mt-1">
                 <select name="team-expertise" id="team_expertise" className="">
                   <option value="">Please select</option>
-                  <option value="small">
+                  <option value="professional">
                     Professional: Football is a career
                   </option>
-                  <option value="medium">
+                  <option value="unprofessional">
                     Unproffessional: Participate in tournaments
                   </option>
-                  <option value="large">
+                  <option value="Hobbysts">
                     Hobbysts: Play for fun and exercise
                   </option>
                 </select>

@@ -4,6 +4,11 @@ import { Link } from "@remix-run/react";
 export default function Login() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col justify-center py-12 px-6 lg:px-8">
+      <nav className="flex items-center h-16 bg-gradient-to-r  from-indigo-900 to-indigo-500 text-white relative">
+        <a href="" className="pl-2">
+          Friendly Matcher
+        </a>
+      </nav>
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
           Login to Schedule your first Match
