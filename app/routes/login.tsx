@@ -3,15 +3,10 @@ import { Link } from "@remix-run/react";
 
 export default function Login() {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col justify-center py-12 px-6 lg:px-8">
-      <nav className="flex items-center h-16 bg-gradient-to-r  from-indigo-900 to-indigo-500 text-white relative">
-        <a href="" className="pl-2">
-          Friendly Matcher
-        </a>
-      </nav>
+    <div className="min-h-screen bg-gray-100 flex flex-col justify-center  lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-          Login to Schedule your first Match
+          Schedule your first Match
         </h2>
         <p className="mt-2 text-center text-sm text-gray-600 max-w">
           Not Registered?
@@ -40,7 +35,7 @@ export default function Login() {
                   type="email"
                   autoComplete="email"
                   required
-                  class=""
+                  className="w-full"
                 />
               </div>
             </div>
@@ -55,7 +50,7 @@ export default function Login() {
                   type="password"
                   autoComplete="current-password"
                   required
-                  class=""
+                  className="w-full flex justify-center"
                 />
               </div>
             </div>

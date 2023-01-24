@@ -26,8 +26,8 @@ export default function Index() {
           <form className="mb-0 space-y-6" action="#" method="POST">
             <div>
               <label
-                for="email"
-                class="block text-sm font-medium text-gray-700"
+                // for="email"
+                className="block text-sm font-medium text-gray-700"
               >
                 Email address
               </label>
@@ -36,16 +36,16 @@ export default function Index() {
                   id="email"
                   name="email"
                   type="email"
-                  autocomplete="email"
+                  autoComplete="email"
                   required
-                  class=""
+                  className="w-full"
                 />
               </div>
             </div>
             <div>
               <label
-                for="password"
-                class="block text-sm font-medium text-gray-700"
+                // for="password"
+                className="block text-sm font-medium text-gray-700"
               >
                 Password
               </label>
@@ -54,27 +54,32 @@ export default function Index() {
                   id="password"
                   name="password"
                   type="password"
-                  autocomplete="current-password"
+                  autoComplete="current-password"
                   required
-                  class=""
+                  className="w-full"
                 />
               </div>
             </div>
             <div>
               <label
-                for="team name"
-                class="block text-sm font-medium text-gray-700"
+                // for="team name"
+                className="block text-sm font-medium text-gray-700"
               >
                 Team Name
               </label>
               <div className="mt-1">
-                <input id="name" name="team_name" type="text" class="" />
+                <input
+                  id="name"
+                  name="team_name"
+                  type="text"
+                  className="w-full"
+                />
               </div>
             </div>
             <div>
               <label
-                for="Team Contact Person"
-                class="block text-sm font-medium text-gray-700"
+                // for="Team Contact Person"
+                className="block text-sm font-medium text-gray-700"
               >
                 Team's Contact Person Name
               </label>
@@ -84,15 +89,15 @@ export default function Index() {
                   name="contact_person_name"
                   type="text"
                   required
-                  class=""
+                  className="w-full"
                 />
               </div>
             </div>
 
             <div>
               <label
-                for="phone number"
-                class="block text-sm font-medium text-gray-700"
+                // for="phone number"
+                className="block text-sm font-medium text-gray-700"
               >
                 Phone Number
               </label>
@@ -102,14 +107,14 @@ export default function Index() {
                   name="phone_number"
                   type="tel"
                   required
-                  class=""
+                  className="w-full"
                 />
               </div>
             </div>
             <div>
               <label
-                for="team expertise"
-                class="block text-sm font-medium text-gray-700"
+                // for="team expertise"
+                className="block text-sm font-medium text-gray-700"
               >
                 Team Expertise
               </label>
@@ -137,8 +142,8 @@ export default function Index() {
                 className=""
               />
               <label
-                for="terms-and-privacy"
-                class="ml-2 block text-sm text-gray-900"
+                // for="terms-and-privacy"
+                className="ml-2 block text-sm text-gray-900"
               >
                 I agree to the
                 <a href="#" className="text-indigo-600 hover:text-indigo-500">
