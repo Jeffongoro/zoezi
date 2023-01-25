@@ -1,0 +1,12 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url = env(mysql://7idytbwzb1vxpq43up18:pscale_pw_13tY5WxpNfA0CnUZyPw29q013DUxnVXjLpYrU02VJdh@eu-west.connect.psdb.cloud/zidoh?sslaccept=strict)
+  relationMode = "prisma"
+}
