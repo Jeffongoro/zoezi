@@ -7,6 +7,12 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url = env(mysql://7idytbwzb1vxpq43up18:pscale_pw_13tY5WxpNfA0CnUZyPw29q013DUxnVXjLpYrU02VJdh@eu-west.connect.psdb.cloud/zidoh?sslaccept=strict)
+  url = env("mysql://7idytbwzb1vxpq43up18:pscale_pw_13tY5WxpNfA0CnUZyPw29q013DUxnVXjLpYrU02VJdh@eu-west.connect.psdb.cloud/zidoh?sslaccept=strict")
   relationMode = "prisma"
+}
+
+model User{
+  id Int @id @default(autoincrement())
+  email String  @unique @db.VarChar(255)
+  password String @unique @db.VarChar(255)
 }
